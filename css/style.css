@@ -1,0 +1,144 @@
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+
+#title {
+    /*background-color: rgba(255, 20, 204, 0.96);*/
+    background-color: #f84963;
+    height: 43rem;
+}
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.nav-link {
+margin: 0 18px;
+}
+
+.container-fluid {
+    padding: 3% 5%;
+}
+.f-icon{
+    margin-bottom: 2rem;
+    color: #ef8172;
+}
+.f-icon:hover{
+    color: #f84963;
+}
+#features{
+    padding: 6.25rem 12.5rem;
+    background-color: #fff;
+    position: relative;
+
+    z-index: 1;
+}
+.pr-h2{
+    font-size: 2.5rem;
+}
+.pr-p{
+    color: gray;
+}
+.pr-card{
+    padding: 3% 2%;
+    text-align: center;
+
+}
+#cta{
+    padding:7% 15% ;
+    text-align: center;
+    background-color: #f84963; ;
+}
+#footer{
+    padding: 2% 15%;
+    text-align: center;
+}
+
+
+
+
+.f-ico{
+  padding: 3% 1.5%;
+}
+.c-h3{
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 50px;
+}
+#pricing{
+    padding: 7rem;
+    text-align: center;
+}
+#testimonials{
+    background-color: #f84963 ;
+    text-align: center;
+
+}
+.carousel-item{
+    padding:12.5rem ;
+}
+.p-img{
+    width: 15%;
+    margin:1rem;
+}
+.t-em{
+  color: #fff;
+}
+.t-h2{
+    color: #fff;
+    line-height:4.5rem ;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+
+}
+#press{
+    background-color: #f84963 ;
+    text-align: center;
+}
+.t-img{
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+}
+.navbar-brand {
+    font-family: "Cairo Medium";
+    font-size: 3rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+.btn{
+    margin: 5% 3% 5% 1% ;
+}
+.title-img{
+    width: 50%;
+    transform: rotate(25deg);
+}
+
+.f-div{
+    text-align: center;
+}
+.f-p{
+    padding: 0 20%;
+    color:gray;
+}
+.f-h3{
+    font-size: 2.4rem;
+}
+@media (max-width: 1020px) {
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+#title{
+    height: auto;
+    text-align: center;
+}
+
+
+
+}
